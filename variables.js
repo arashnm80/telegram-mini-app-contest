@@ -1,6 +1,10 @@
-document.getElementById("headerColor")?.textContent = Telegram.WebApp.headerColor;
+// doesn't work, don't know why!!!!
+// document.getElementById("headerColor")?.textContent = Telegram.WebApp.headerColor;
 
 // headerColor
-// const outputElement = document.getElementById("headerColor");
-// outputElement.textContent = Telegram.WebApp.headerColor;
+const headerColorElement = document.getElementById("headerColor");
+headerColorElement.textContent = Telegram.WebApp.headerColor;
 
+// version
+const versionElement = document.getElementById("version");
+versionElement.textContent = Telegram.WebApp.version;
