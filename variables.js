@@ -16,3 +16,7 @@ myElement.textContent = Telegram.WebApp.headerColor;
 // version
 var myElement = document.getElementById("version");
 myElement.textContent = Telegram.WebApp.version;
+
+// colorScheme
+var myElement = document.getElementById("colorScheme");
+myElement.textContent = Telegram.WebApp.colorScheme;
