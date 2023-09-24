@@ -14,3 +14,10 @@ function getRandomColor() {
 
     return color;
 }
+
+
+// Assuming window.Telegram.WebApp.headerColor contains the current color in #RRGGBB format
+var currentHeaderColor = window.Telegram.WebApp.headerColor;
+
+// Update the content of the span element
+document.getElementById("headerColorDisplay").textContent = "Current Header Color: " + currentHeaderColor;
