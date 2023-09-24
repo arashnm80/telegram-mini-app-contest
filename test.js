@@ -1,5 +1,5 @@
 // Get the HTML element by its id
-const outputElement = document.getElementById("output");
+const outputElement = document.getElementById("headerColor");
 
 // Your JavaScript variable
 const myVariable = Telegram.WebApp.headerColor;
